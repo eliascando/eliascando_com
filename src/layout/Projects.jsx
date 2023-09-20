@@ -33,7 +33,7 @@ function Projects(props){
                 </a>
             </article>
             <article>
-                <a href='https://blog-express-sigma.vercel.app/' target='_blank'>
+                <a href='https://chat-express-iota.vercel.app/' target='_blank'>
                     <img src={chatExpressHome} />
                     <h1>Chat Express</h1>        
                     <p>Aplicación Web de Chat en tiempo real con React y Node.js utilizando API REST Full y Socket.io. La aplicación se basa en la interacción entre usuarios, pudiendo enviarse mensajes en tiempo real y enviar solicitudes a otras personas.</p>
@@ -46,7 +46,7 @@ function Projects(props){
                 </a>
             </article>
             <article>
-                <a href='https://blog-express-sigma.vercel.app/' target='_blank'>
+                <a href='https://clima-express.vercel.app/' target='_blank'>
                     <img src={climaExpressHome} />
                     <h1>Clima Express</h1>        
                     <p>La aplicacion para el clima! Clima Express es una aplicación web construida con React consume el API de WeatherApi y utiliza la libreria de Bootsrapp Icons para la parte gráfica de iconos.</p>

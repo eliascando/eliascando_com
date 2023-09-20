@@ -1,0 +1,16 @@
+.content{
+    /*background: red;*/
+    height: 100vh;
+    padding: 2%;
+    width: 50%;
+    padding-top: 12%;
+    margin-right: -40%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+@media screen and (max-width: 890px){
+    .content{
+        width: 100%;
+    }
+}

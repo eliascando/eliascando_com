@@ -43,6 +43,16 @@ function Experience(props){
                 </p>
             </section>
             <section>
+                <h2>Universidad Angular</h2>
+                <p><strong>Udemy</strong></p>
+                <p>oct. - nov. 2023</p>
+                <p>
+                    <Pill text="Angular" />
+                    <Pill text="Routing" />
+                    <Pill text="Material Angular" />
+                </p>
+            </section>
+            <section>
                 <h2>Master en React</h2>
                 <p><strong>Udemy</strong></p>
                 <p>jun. - jul. 2023</p>

@@ -31,6 +31,7 @@ function Experience(props){
                 <p><strong>Universidad de Guayaquil</strong></p>
                 <p>jul. 2020 - actualidad</p>
                 <p>
+                    <Pill text="Angular" />
                     <Pill text="C#" />
                     <Pill text="SQL" />
                     <Pill text="Bases de Datos" />
@@ -38,6 +39,7 @@ function Experience(props){
                     <Pill text="Testing" />
                     <Pill text="Metodologías de 
                     desarrollo de software" />
+                    <Pill text="Desarrollo de API RESTFull" />
                 </p>
             </section>
             <section>

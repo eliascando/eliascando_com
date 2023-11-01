@@ -48,8 +48,8 @@ function Experience(props){
                 <p>oct. - nov. 2023</p>
                 <p>
                     <Pill text="Angular" />
-                    <Pill text="Routing" />
                     <Pill text="Material Angular" />
+                    <Pill text="Bootstrap" />
                 </p>
             </section>
             <section>

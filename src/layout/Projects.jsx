@@ -20,7 +20,11 @@ function Projects(props){
             onMouseOver={() => setLocation('projects')}
             id="projects"
         >
-            <h1 className='active responsive'>PROYECTOS</h1>
+            <h1 className='active responsive'>
+            {
+                language === 'es' ? 'PROYECTOS' : 'PROJECTS'
+            }
+            </h1>
             {
                 projectsData.map((data, index) => (
                     <ProjectsChart

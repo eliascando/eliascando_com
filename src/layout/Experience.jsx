@@ -19,7 +19,11 @@ function Experience(props){
             onMouseOver={() => setLocation('experience')}
             id="experience"
         >
-            <h1 className='active responsive'>EXPERIENCIA</h1>
+            <h1 className='active responsive'>
+            {
+                language === 'es' ? 'EXPERIENCIA' : 'EXPERIENCE'
+            }
+            </h1>
             {
                 experienceData.map((data, index) => (
                     <ExperienceChart 

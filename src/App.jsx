@@ -18,8 +18,6 @@ function App() {
             : 'en';
   });
 
-  const [onMouseLanguage, setOnMouseLanguage] = useState();
-
   const lang_spa = {
     es: 'ES',
     en: 'EN'
@@ -42,6 +40,7 @@ function App() {
       let width = window.innerWidth;
       console.log(width);
       if(width < 890){
+        console.log('menor a 890');
         let pipe = document.getElementById('pipe');
         let en = document.getElementById('en');
         let es = document.getElementById('es');
@@ -49,12 +48,14 @@ function App() {
         en.style.display = 'none';
         es.classList.add('selected');
       }else{
+        console.log('mayor a 890');
         let pipe = document.getElementById('pipe');
         let en = document.getElementById('en');
         pipe.style.display = 'block';
         en.style.display = 'block';
       }
     }
+    handleResize();
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);

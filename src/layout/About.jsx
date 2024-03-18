@@ -18,7 +18,11 @@ function About(props){
             onMouseOver={() => setLocation('about')}
             id='about'
         >
-            <h1 className='active responsive'>ACERCA DE</h1>
+            <h1 className='active responsive'>
+            {
+                language === 'es' ? 'ACERCA DE' : 'ABOUT'
+            }
+            </h1>
             <p>
                 {aboutData.intro}
             </p>

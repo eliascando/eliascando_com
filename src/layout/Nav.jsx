@@ -2,18 +2,26 @@ import github from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
 import instagram from '../assets/instagram.svg'
 import '../css/Nav.css'
+import { FormControl } from '@mui/material';
+import { useContext } from 'react';
+import { LanguageContext } from '../contexts/LanguageContext';
+import about_es from '../data/about_es.json';
+import about_en from '../data/about_en.json';
 
 function Nav(props) {
 
     const { location, setLocation } = props;
 
+    const { language } = useContext(LanguageContext);
+
+    const aboutData = language === 'es' ? about_es : about_en;
+
     return(
         <div className='nav'>
             <div className='presentacion-perfil'>
                 <h1>Elías Cando</h1>
-                <h4>Desarrollador de Software</h4>
-                <p>Enfocado en la creación de soluciones de calidad y la mejora continua.</p>
-                {/*<p>{window.navigator.language}</p>*/}
+                <h4>{aboutData.title}</h4>
+                <p>{aboutData.presentation}</p>
             </div>
             <div className="menu-page">
                 <ul>
@@ -27,7 +35,11 @@ function Nav(props) {
                                 about.scrollIntoView({behavior: 'smooth', block: 'end'})
                             }
                         }
-                    >ACERCA DE MI</button></li>
+                    >
+                    {
+                        language === 'es' ? 'ACERCA DE' : 'ABOUT'
+                    }    
+                    </button></li>
                     <li><button
                         className={location === 'experience' ? 'active' : ''}
                         onClick={() => {
@@ -39,7 +51,11 @@ function Nav(props) {
                                 block: 'start'
                             })
                         }}
-                    >EXPERIENCIA</button></li>
+                    >
+                    {
+                        language === 'es' ? 'EXPERIENCIA' : 'EXPERIENCE'
+                    }
+                    </button></li>
                     <li><button
                         className={location === 'projects' ? 'active' : ''}
                         onClick={() => {
@@ -48,7 +64,10 @@ function Nav(props) {
                             projects.scrollIntoView({behavior: 'smooth', block: 'start'})
                         }
                     }
-                    >PROYECTOS</button></li>
+                    >
+                    {
+                        language === 'es' ? 'PROYECTOS' : 'PROJECTS'
+                    }</button></li>
                 </ul>
             </div>
             <div className='redes-sociales'>

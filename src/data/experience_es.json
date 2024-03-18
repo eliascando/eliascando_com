@@ -1,0 +1,41 @@
+[   
+    {
+        "title": "Consultor de Software",
+        "place": "Royaltic Group",
+        "period": "mar. 2024 - actualidad",
+        "skills": [
+            "Angular",
+            ".NET Web API",
+            "Laravel",
+            "SQL Server",
+            "Inteligencia de Negocios"
+        ]
+    }, 
+    {
+        "title": "Full-Stack Developer Jr.",
+        "place": "Corporación LANEC",
+        "period": "jul. 2023 - feb. 2024",
+        "skills": [
+            "React",
+            ".NET Web API",
+            "SQL Server",
+            "Azure DevOps",
+            "Arquitectura de software"
+        ]
+    },
+    {
+        "title": "Ingeniería en Software",
+        "place": "Universidad de Guayaquil",
+        "period": "jul. 2020 - actualidad",
+        "skills": [
+            "Angular",
+            "C#",
+            "SQL",
+            "Bases de Datos",
+            "Arquitectura de software",
+            "Testing",
+            "Metodologías de desarrollo de software",
+            "Desarrollo de API RESTFull"
+        ]
+    }
+]

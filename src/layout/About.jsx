@@ -1,8 +1,16 @@
 import '../css/About.css'
+import { useContext } from 'react';
+import { LanguageContext } from '../contexts/LanguageContext';
+import about_es from '../data/about_es.json';
+import about_en from '../data/about_en.json';
 
 function About(props){
     
     const { setLocation } = props;
+
+    const { language } = useContext(LanguageContext);
+
+    const aboutData = language === 'es' ? about_es : about_en;
 
     return(
         <div 
@@ -12,23 +20,22 @@ function About(props){
         >
             <h1 className='active responsive'>ACERCA DE</h1>
             <p>
-                Desarrollador web y estudiante de Ingeniería en Software, con una pasión desenfrenada por construir experiencias digitales.
+                {aboutData.intro}
             </p>
             <p>
-                Disfruto colaborando en equipos para alcanzar objetivos comunes participando en proyectos personales y profesionales
+                {aboutData.team_group}
             </p>
             <p>
-                Actualmente estoy trabajando como desarrollador web en una importante empresa de producción de camarón.
-                Donde he tenido la oportunidad de trabajar en proyectos de desarrollo de software en todo su ciclo de vida.
+                {aboutData.actual_job}
             </p>
             <p>
-                Cuando no estoy codificando, me entretengo resolviendo rompecabezas, andando en bici o escuchando música.
+                {aboutData.free_time}
             </p>
             <p>
-                Mi filosofía: Siempre estoy en búsqueda constante de conocimiento y bienestar.
+                {aboutData.thinking}
             </p>
         </div>
     )
 }
 
-export default About
+export default About;

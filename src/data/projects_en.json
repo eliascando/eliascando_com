@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "link_to_project": "https://wa.me/593988661001",
+        "image_source": "botExpressHome.jpeg",
+        "link_to_repo": "https://github.com/eliascando/BotExpress",
+        "title": "BotExpress",
+        "description": "This is a Node project that implements the libraries of whatsapp-web.js, OpenAI, and Mongoose to automate WhatsApp responses",
+        "stack": [
+            "Node.js",
+            "MongoDB",
+            "OpenAI API",
+            "ChatBot"
+        ],
+        "style": { 
+            "width": "40px", 
+            "height": "40px", 
+            "marginLeft": "20px" 
+        }
+    },
+    {
+        "id": 2,
+        "link_to_project": "https://blog-express-sigma.vercel.app",
+        "image_source": "blogExpressHome.jpeg",
+        "link_to_repo": "https://github.com/eliascando/BlogExpress",
+        "title": "BlogExpress",
+        "description": "My personal blog, where I share articles about programming and web development, developed entirely with the MERN Stack",
+        "stack": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Express"
+        ],
+        "style": { 
+            "width": "40px", 
+            "height": "40px", 
+            "marginLeft": "20px" 
+        }
+    },
+    {
+        "id": 3,
+        "link_to_project": "https://chat-express-iota.vercel.app",
+        "image_source": "chatExpressHome.jpeg",
+        "link_to_repo": "https://github.com/eliascando/ChatExpress",
+        "title": "ChatExpress",
+        "description": "Real-time chat web application with React and Node.js using RESTful API and Socket.io. The application is based on user interaction, allowing real-time messaging and sending requests to other people.",
+        "stack": [
+            "React",            
+            "Node.js",
+            ".NET Web API",
+            "Microsoft SQL Server",
+            "Socket.io"
+        ],
+        "style": { 
+            "width": "40px", 
+            "height": "40px", 
+            "marginLeft": "20px" 
+        }
+    },
+    {
+        "id": 4,
+        "link_to_project": "https://clima-express.vercel.app/",
+        "image_source": "climaExpressHome.png",
+        "link_to_repo": "https://github.com/eliascando/ClimaExpress",
+        "title": "ClimaExpress",
+        "description": "The weather application! Weather Express is a web application built with React that consumes the WeatherApi and uses Bootstrap Icons library for the graphical part of icons.",
+        "stack": [
+            "React",
+            "WeatherApi",
+            "Bootstrap Icons"
+        ],
+        "style": { 
+            "width": "35px", 
+            "height": "35px", 
+            "marginLeft": "20px" 
+        }
+    }
+]

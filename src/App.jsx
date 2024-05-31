@@ -4,6 +4,7 @@ import Content from './layout/Content'
 import { LanguageContext } from './contexts/LanguageContext'
 import './App.css'
 import { FormControl } from '@mui/material'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 
@@ -117,6 +118,7 @@ function App() {
           setLocation={setLocation}
         /> 
       </LanguageContext.Provider>
+      <Analytics />
     </div>
   )
 }

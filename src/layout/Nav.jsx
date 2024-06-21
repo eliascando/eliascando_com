@@ -37,7 +37,7 @@ function Nav(props) {
                         }
                     >
                     {
-                        language === 'es' ? 'ACERCA DE' : 'ABOUT'
+                        language === 'es' ? 'ACERCA DE MI' : 'ABOUT'
                     }    
                     </button></li>
                     <li><button

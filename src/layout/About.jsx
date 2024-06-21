@@ -20,7 +20,7 @@ function About(props){
         >
             <h1 className='active responsive'>
             {
-                language === 'es' ? 'ACERCA DE' : 'ABOUT'
+                language === 'es' ? 'ACERCA DE MI' : 'ABOUT'
             }
             </h1>
             <p>

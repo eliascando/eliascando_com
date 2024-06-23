@@ -1,6 +1,7 @@
 import github from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
 import instagram from '../assets/instagram.svg'
+import mail from '../assets/mail.svg'
 import '../css/Nav.css'
 import { FormControl } from '@mui/material';
 import { useContext } from 'react';
@@ -71,9 +72,10 @@ function Nav(props) {
                 </ul>
             </div>
             <div className='redes-sociales'>
+                <a href='mailto:contact@eliascando.com' target='_blank' rel='noreferrer'><img height='30px' width='30px' src={mail} /></a>
                 <a href="https://github.com/eliascando/" target="_blank" rel="noreferrer"><img height="30px" width="30px" src={github}/></a>
                 <a href="https://linkedin.com/in/eliascando" target="_blank" rel="noreferrer"><img height="30px" width="30px" src={linkedin} /></a>
-                <a href='https://www.instagram.com/cando.elias/' target="_blank" rel="noreferrer"><img height="30px" width="30px" src={instagram} /></a>
+                {/* <a href='https://www.instagram.com/cando.elias/' target="_blank" rel="noreferrer"><img height="30px" width="30px" src={instagram} /></a> */}
             </div>
         </div>
     )

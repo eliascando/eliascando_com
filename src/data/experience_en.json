@@ -1,41 +1,40 @@
 [
     {
-        "title": "Software Consultant",
-        "place": "Royaltic Group",
-        "period": "Jul. 2023 - present",
+        "title": "Software Developer",
+        "place": "Viamatica",
+        "period": "Aug. 2024 - present",
         "skills": [
             "Angular",
-            ".NET Web API",
+            ".NET Framework",
+            "SQL Server",
+            "Azure DevOps",
+            "Software Architecture",
+            "Microservices",
+            "Microfrontends"
+        ]
+    },  
+    {
+        "title": "Software Consultant",
+        "place": "Royaltic Group",
+        "period": "Mar. 2024 - Aug. 2024",
+        "skills": [
+            "Angular",
+            ".NET Framework",
             "Laravel",
             "SQL Server",
             "Business Intelligence"
         ]
     },
     {
-        "title": "Jr. Full-Stack Developer",
+        "title": "Jr. Full Stack Developer",
         "place": "LANEC Corporation",
-        "period": "Jan. 2023 - Jul. 2023",
+        "period": "Jul. 2023 - Feb. 2024",
         "skills": [
-            "React",
-            ".NET Web API",
+            "ReactJS",
+            ".NET Framework",
             "SQL Server",
-            "Azure DevOps",
-            "Software Architecture"
-        ]
-    },
-    {
-        "title": "Software Engineering",
-        "place": "University of Guayaquil",
-        "period": "Jul. 2020 - present",
-        "skills": [
-            "Angular",
-            "C#",
-            "SQL",
-            "Databases",
-            "Software Architecture",
-            "Testing",
-            "Software Development Methodologies",
-            "RESTful API Development"
+            "NodeJS",
+            "Azure DevOps"
         ]
     }
 ]

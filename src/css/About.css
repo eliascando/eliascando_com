@@ -26,5 +26,6 @@
         border-radius: 1rem;
         padding: 10px;
         text-align: center;
+        white-space: nowrap;
     }
 }

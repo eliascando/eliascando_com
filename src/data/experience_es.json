@@ -1,41 +1,40 @@
-[   
+[ 
+    {
+        "title": "Desarrollador de Software",
+        "place": "Viamatica",
+        "period": "ago. 2024 - actualidad",
+        "skills": [
+            "Angular",
+            ".NET Framework",
+            "SQL Server",
+            "Azure DevOps",
+            "Arquitectura de Software",
+            "Microservicios",
+            "Microfrontends"
+        ]
+    },  
     {
         "title": "Consultor de Software",
         "place": "Royaltic Group",
-        "period": "jul. 2023 - actualidad",
+        "period": "mar. 2024 - ago. 2024",
         "skills": [
             "Angular",
-            ".NET Web API",
+            ".NET Framework",
             "Laravel",
             "SQL Server",
             "Inteligencia de Negocios"
         ]
     }, 
     {
-        "title": "Full-Stack Developer Jr.",
+        "title": "Desarrollador Full Stack Jr.",
         "place": "Corporación LANEC",
-        "period": "ene. 2023 - jul. 2023",
+        "period": "jul. 2023 - feb. 2024",
         "skills": [
-            "React",
-            ".NET Web API",
+            "ReactJS",
+            ".NET  Framework",
             "SQL Server",
-            "Azure DevOps",
-            "Arquitectura de software"
-        ]
-    },
-    {
-        "title": "Ingeniería en Software",
-        "place": "Universidad de Guayaquil",
-        "period": "jul. 2020 - actualidad",
-        "skills": [
-            "Angular",
-            "C#",
-            "SQL",
-            "Bases de Datos",
-            "Arquitectura de software",
-            "Testing",
-            "Metodologías de desarrollo de software",
-            "Desarrollo de API RESTFull"
+            "NodeJS",
+            "Azure DevOps"
         ]
     }
 ]

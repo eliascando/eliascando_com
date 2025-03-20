@@ -1,7 +1,8 @@
-.experience{
+.experience {
     margin-bottom: 25%;
 }
-.experience section{
+
+.experience section {
     margin-bottom: 2%;
     text-align: left;
     background: rgba(150, 144, 144, 0.521);
@@ -9,12 +10,14 @@
 
     padding: 4%;
 }
-.experience section:hover{
+
+.experience section:hover {
     background: rgba(77, 74, 74, 0.623);
     border-radius: 1rem;
 }
-@media screen and (max-width: 890px){
-    .experience{
+
+@media screen and (max-width: 890px) {
+    .experience {
         margin-bottom: 10%;
     }
 }

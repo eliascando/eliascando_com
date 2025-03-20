@@ -1,40 +1,59 @@
-[ 
-    {
-        "title": "Desarrollador de Software",
-        "place": "Viamatica",
-        "period": "ago. 2024 - actualidad",
-        "skills": [
-            "Angular",
-            ".NET Framework",
-            "SQL Server",
-            "Azure DevOps",
-            "Arquitectura de Software",
-            "Microservicios",
-            "Microfrontends"
-        ]
-    },  
-    {
-        "title": "Consultor de Software",
-        "place": "Royaltic Group",
-        "period": "mar. 2024 - ago. 2024",
-        "skills": [
-            "Angular",
-            ".NET Framework",
-            "Laravel",
-            "SQL Server",
-            "Inteligencia de Negocios"
-        ]
-    }, 
-    {
-        "title": "Desarrollador Full Stack Jr.",
-        "place": "Corporación LANEC",
-        "period": "jul. 2023 - feb. 2024",
-        "skills": [
-            "ReactJS",
-            ".NET  Framework",
-            "SQL Server",
-            "NodeJS",
-            "Azure DevOps"
-        ]
-    }
+[
+  {
+    "title": "Full Stack Developer Senior",
+    "place": "Corporación LANEC",
+    "period": "ene. 2025 - actualidad",
+    "skills": [
+      "SQL Server",
+      "React",
+      "Flutter",
+      "Java Server Faces",
+      "Node",
+      "Azure DevOps",
+      "Arquitectura de Software",
+      "Automatización con DevOps",
+      "Ingeniería de Datos"
+    ]
+  },
+  {
+    "title": "Desarrollador Semi Senior",
+    "place": "Viamatica (Outsourcing Banco Guayaquil)",
+    "period": "ago. 2024 - ene. 2025",
+    "skills": [
+      "Angular",
+      ".NET Framework",
+      "SQL Server",
+      "Azure DevOps",
+      "Arquitectura de Software",
+      "Microservicios",
+      "Microfrontends"
+    ]
+  },
+  {
+    "title": "Consultor de Software",
+    "place": "Royaltic Group",
+    "period": "mar. 2024 - ago. 2024",
+    "skills": [
+      "Angular",
+      ".NET Framework",
+      "Laravel",
+      "SQL Server",
+      "Business Intelligence",
+      "ETL",
+      "Power BI"
+    ]
+  },
+  {
+    "title": "Full Stack Developer Junior",
+    "place": "Corporación LANEC",
+    "period": "jul. 2023 - feb. 2024",
+    "skills": [
+      "React",
+      ".NET Framework",
+      "SQL Server",
+      "Node",
+      "Azure DevOps",
+      "Automatización de Procesos"
+    ]
+  }
 ]

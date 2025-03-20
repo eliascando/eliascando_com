@@ -2,19 +2,19 @@
 
 * {
   font-family: 'Fira Code', monospace;
-  text-align: justify;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: white;
 }
-body{
+
+body {
   background-color: #18181b;
   height: 100vh;
   overflow-y: auto;
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
   font-size: 1rem;

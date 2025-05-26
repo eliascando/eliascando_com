@@ -2,24 +2,17 @@ import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import mail from "../assets/mail.svg";
 import "../css/Nav.css";
-import { useContext } from "react";
-import { LanguageContext } from "../contexts/LanguageContext";
-import about_es from "../data/about_es.json";
-import about_en from "../data/about_en.json";
+import { useTranslation } from "react-i18next";
 
-function Nav(props) {
-  const { location, setLocation } = props;
-
-  const { language } = useContext(LanguageContext);
-
-  const aboutData = language === "es" ? about_es : about_en;
+function Nav({ location, setLocation }) {
+  const { t } = useTranslation();
 
   return (
     <div className="nav">
       <div className="presentacion-perfil">
         <h1>Elías Cando</h1>
-        <h4>{aboutData.title}</h4>
-        <p>{aboutData.presentation}</p>
+        <h4>{t("about.title")}</h4>
+        <p>{t("about.presentation")}</p>
       </div>
       <div className="menu-page">
         <ul>
@@ -28,11 +21,13 @@ function Nav(props) {
               className={location === "about" ? "active" : ""}
               onClick={() => {
                 setLocation("about");
-                const about = document.getElementById("about");
-                about.scrollIntoView({ behavior: "smooth", block: "end" });
+                document.getElementById("about").scrollIntoView({
+                  behavior: "smooth",
+                  block: "end",
+                });
               }}
             >
-              {language === "es" ? "ACERCA DE MI" : "ABOUT"}
+              {t("nav.about")}
             </button>
           </li>
           <li>
@@ -40,14 +35,13 @@ function Nav(props) {
               className={location === "experience" ? "active" : ""}
               onClick={() => {
                 setLocation("experience");
-                const experience = document.getElementById("experience");
-                experience.scrollIntoView({
+                document.getElementById("experience").scrollIntoView({
                   behavior: "smooth",
                   block: "start",
                 });
               }}
             >
-              {language === "es" ? "EXPERIENCIA" : "EXPERIENCE"}
+              {t("nav.experience")}
             </button>
           </li>
           <li>
@@ -55,11 +49,13 @@ function Nav(props) {
               className={location === "projects" ? "active" : ""}
               onClick={() => {
                 setLocation("projects");
-                const projects = document.getElementById("projects");
-                projects.scrollIntoView({ behavior: "smooth", block: "start" });
+                document.getElementById("projects").scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
               }}
             >
-              {language === "es" ? "PROYECTOS" : "PROJECTS"}
+              {t("nav.projects")}
             </button>
           </li>
         </ul>
@@ -70,21 +66,21 @@ function Nav(props) {
           target="_blank"
           rel="noreferrer"
         >
-          <img height="30px" width="30px" src={mail} />
+          <img height="30px" width="30px" src={mail} alt="mail" />
         </a>
         <a
           href="https://github.com/eliascando/"
           target="_blank"
           rel="noreferrer"
         >
-          <img height="30px" width="30px" src={github} />
+          <img height="30px" width="30px" src={github} alt="github" />
         </a>
         <a
           href="https://linkedin.com/in/eliascando"
           target="_blank"
           rel="noreferrer"
         >
-          <img height="30px" width="30px" src={linkedin} />
+          <img height="30px" width="30px" src={linkedin} alt="linkedin" />
         </a>
       </div>
     </div>

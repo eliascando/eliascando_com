@@ -1,20 +1,16 @@
 import "../css/Projects.css";
-import projects_es from "../data/projects_es.json";
-import projects_en from "../data/projects_en.json";
 import ProjectsChart from "../components/ProjectsChart.jsx";
 import imagesMap from "../data/imagesProjects.js";
-import { useContext } from "react";
-import { LanguageContext } from "../contexts/LanguageContext";
+import { useTranslation } from "react-i18next";
 
 function Projects() {
-  const { language } = useContext(LanguageContext);
-  const projectsData = language === "es" ? projects_es : projects_en;
+  const { t } = useTranslation();
+
+  const projectsData = t("projects", { returnObjects: true });
 
   return (
     <div className="projects section" id="projects">
-      <h1 className="active responsive">
-        {language === "es" ? "PROYECTOS" : "PROJECTS"}
-      </h1>
+      <h1 className="active responsive">{t("projects_title")}</h1>
       {projectsData.map((data, index) => (
         <ProjectsChart
           key={index}

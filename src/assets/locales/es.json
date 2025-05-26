@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "about": "ACERCA DE MI",
+    "experience": "EXPERIENCIA",
+    "projects": "PROYECTOS"
+  },
+  "about_title": "ACERCA DE MI",
+  "about": {
+    "title": "Full Stack Developer",
+    "presentation": "Eficiencia | Escalabilidad | Impacto real",
+    "intro": "Convierto desafíos técnicos en soluciones concretas. Me enfoco en optimizar procesos, mejorar experiencias y generar valor real con tecnología eficiente y escalable.",
+    "actual_job": "Como Full Stack Developer Senior en LANEC, lidero la modernización de sistemas mediante arquitectura robusta, automatización y prácticas DevOps. Me especializo en resolver problemas complejos, anticipar necesidades y facilitar decisiones técnicas que mejoran la operatividad y escalan resultados.",
+    "thinking": "Creo en la evolución constante como filosofía de vida. Aprender, adaptarse y avanzar con intención es lo que impulsa mi forma de trabajar. Me inspiran el cine, los retos mentales y descubrir nuevas ideas mientras pedaleo."
+  },
+  "experience_title": "EXPERIENCIA",
+  "experience": [
+    {
+      "title": "Full Stack Developer Senior",
+      "place": "Corporación LANEC",
+      "period": "ene. 2025 - actualidad",
+      "skills": [
+        "SQL Server",
+        "React",
+        "Flutter",
+        "Java Server Faces",
+        "Node",
+        "Azure DevOps",
+        "Arquitectura de Software",
+        "Automatización con DevOps",
+        "Ingeniería de Datos"
+      ]
+    },
+    {
+      "title": "Desarrollador Semi Senior",
+      "place": "Viamatica (Outsourcing Banco Guayaquil)",
+      "period": "ago. 2024 - ene. 2025",
+      "skills": [
+        "Angular",
+        ".NET Framework",
+        "SQL Server",
+        "Azure DevOps",
+        "Arquitectura de Software",
+        "Microservicios",
+        "Microfrontends"
+      ]
+    },
+    {
+      "title": "Consultor de Software",
+      "place": "Royaltic Group",
+      "period": "mar. 2024 - ago. 2024",
+      "skills": [
+        "Angular",
+        ".NET Framework",
+        "Laravel",
+        "SQL Server",
+        "Business Intelligence",
+        "ETL",
+        "Power BI"
+      ]
+    },
+    {
+      "title": "Full Stack Developer Junior",
+      "place": "Corporación LANEC",
+      "period": "jul. 2023 - feb. 2024",
+      "skills": [
+        "React",
+        ".NET Framework",
+        "SQL Server",
+        "Node",
+        "Azure DevOps",
+        "Automatización de Procesos"
+      ]
+    }
+  ],
+  "projects_title": "PROYECTOS",
+  "projects": [
+    {
+      "id": 1,
+      "link_to_project": "https://wa.me/593988661001",
+      "image_source": "botExpressHome.jpeg",
+      "link_to_repo": "https://github.com/eliascando/BotExpress",
+      "title": "Bot Express",
+      "description": "Este es un proyecto de node que implementa las librerías de whatsapp-web.js, OpenAI y Mongoose para automatizar las respuestas de whatsapp",
+      "stack": ["Node.js", "MongoDB", "OpenAI API", "ChatBot"],
+      "style": {
+        "width": "40px",
+        "height": "40px",
+        "marginLeft": "20px"
+      }
+    },
+    {
+      "id": 2,
+      "link_to_project": "https://blog-express-sigma.vercel.app",
+      "image_source": "blogExpressHome.jpeg",
+      "link_to_repo": "https://github.com/eliascando/BlogExpress",
+      "title": "Blog Express",
+      "description": "Mi blog personal, donde comparto artículos sobre programación y desarrollo web desarrollado enteramente con el MERN Stack",
+      "stack": ["React", "Node.js", "MongoDB", "Express"],
+      "style": {
+        "width": "40px",
+        "height": "40px",
+        "marginLeft": "20px"
+      }
+    },
+    {
+      "id": 3,
+      "link_to_project": "https://chat-express-iota.vercel.app",
+      "image_source": "chatExpressHome.jpeg",
+      "link_to_repo": "https://github.com/eliascando/ChatExpress",
+      "title": "Chat Express",
+      "description": "Aplicación Web de Chat en tiempo real con React y Node.js utilizando API REST Full y Socket.io. La aplicación se basa en la interacción entre usuarios, pudiendo enviarse mensajes en tiempo real y enviar solicitudes a otras personas.",
+      "stack": [
+        "React",
+        "Node.js",
+        ".NET Web API",
+        "Microsoft SQL Server",
+        "Socket.io"
+      ],
+      "style": {
+        "width": "40px",
+        "height": "40px",
+        "marginLeft": "20px"
+      }
+    },
+    {
+      "id": 4,
+      "link_to_project": "https://clima-express.vercel.app/",
+      "image_source": "climaExpressHome.png",
+      "link_to_repo": "https://github.com/eliascando/ClimaExpress",
+      "title": "Clima Express",
+      "description": "La aplicacion para el clima! Clima Express es una aplicación web construida con React consume el API de WeatherApi y utiliza la libreria de Bootsrapp Icons para la parte gráfica de iconos.",
+      "stack": ["React", "WeatherApi", "Bootstrap Icons"],
+      "style": {
+        "width": "35px",
+        "height": "35px",
+        "marginLeft": "20px"
+      }
+    }
+  ]
+}

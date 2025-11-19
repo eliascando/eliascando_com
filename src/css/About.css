@@ -1,14 +1,14 @@
 .about-section {
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0;
-    /* Centered vertically */
+    flex-direction: column;
+    padding-top: calc(var(--nav-height) + 50px);
 }
 
 .hero-content {
     max-width: 1000px;
+    margin: auto;
+    width: 100%;
 }
 
 .hero-greeting {
@@ -63,11 +63,14 @@
     outline: none;
 }
 
+@media (max-width: 768px) {
+    .about-section {
+        padding-top: calc(var(--nav-scroll-height) + 40px);
+    }
+}
+
 @media (max-width: 480px) {
     .about-section {
-        align-items: flex-start;
-        padding-top: 140px;
-        /* Ensure content clears the fixed nav */
         padding-bottom: 40px;
     }
 

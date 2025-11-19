@@ -1,16 +1,21 @@
-.content{
-    /*background: red;*/
-    height: 100vh;
-    padding: 2%;
-    width: 50%;
-    padding-top: 12%;
-    margin-right: -40%;
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 150px;
 }
-::-webkit-scrollbar {
-    display: none;
+
+@media (max-width: 1080px) {
+    .content {
+        padding: 0 100px;
+    }
 }
-@media screen and (max-width: 890px){
-    .content{
-        width: 100%;
+
+@media (max-width: 768px) {
+    .content {
+        padding: 0 25px;
     }
 }

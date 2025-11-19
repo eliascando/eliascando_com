@@ -1,12 +1,16 @@
-.pill{
+.pill {
     display: inline-block;
-    padding: 0.5rem 1rem;
-    border-radius: 1rem;
-    background-color:rgb(245, 95, 9) /*#e0e0e0*/;
-    color: #000;
-    font-size: 0.8rem;
-    margin: 0.5rem;
-    transition: all 0.3s ease-in-out;
-    color: white;
-    white-space: nowrap;
+    color: var(--accent-primary);
+    background-color: var(--accent-tint);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xs);
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: var(--transition);
+}
+
+.pill:hover {
+    background-color: rgba(100, 255, 218, 0.2);
 }

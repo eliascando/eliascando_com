@@ -8,8 +8,8 @@ export default function useSectionObserver(setLocation) {
 
     const options = {
       root: null,
-      rootMargin: "0px",
-      threshold: 0.1,
+      rootMargin: "-50% 0px -50% 0px",
+      threshold: 0,
     };
 
     observer.current = new IntersectionObserver((entries) => {

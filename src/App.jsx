@@ -4,7 +4,9 @@ import Content from "./layout/Content";
 import "./App.css";
 import { Analytics } from "@vercel/analytics/react";
 import useSectionObserver from "./hooks/useSectionObserver";
+import useScrollAnimation from "./hooks/useScrollAnimation";
 import i18n from "./utils/i18n";
+import CursorSpotlight from "./components/CursorSpotlight";
 
 function App() {
   const [location, setLocation] = useState("about");
@@ -15,8 +17,8 @@ function App() {
     return stored === "es" || stored === "en"
       ? stored
       : browser === "es" || browser === "en"
-      ? browser
-      : "en";
+        ? browser
+        : "en";
   });
 
   useEffect(() => {
@@ -25,22 +27,17 @@ function App() {
   }, [language]);
 
   useSectionObserver(setLocation);
+  useScrollAnimation();
 
   return (
     <div className="App">
-      <div className="language-switch fixed-bottom-div">
-        <button
-          id="language-switch-button"
-          onClick={() => {
-            const newLang = language === "es" ? "en" : "es";
-            setLanguage(newLang);
-          }}
-        >
-          <span>{language === "es" ? "EN" : "ES"}</span>
-        </button>
-      </div>
-
-      <Nav location={location} setLocation={setLocation} />
+      <Nav
+        location={location}
+        setLocation={setLocation}
+        language={language}
+        setLanguage={setLanguage}
+      />
+      <CursorSpotlight />
       <Content />
       <Analytics />
     </div>

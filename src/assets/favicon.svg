@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    text {
+      font-family: 'Inter', sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      fill: #64ffda;
+    }
+  </style>
+  <rect width="64" height="64" fill="#0a192f" rx="8" />
+  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle">EC</text>
+</svg>

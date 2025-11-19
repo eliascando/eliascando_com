@@ -1,31 +1,82 @@
-.about{
-    /*background: red;*/
-    margin-bottom: 25%;
-}
-.about p{
-    margin-bottom: 2%;
-    text-align: left;
-}
-.responsive{
-    display: none;
+.about-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    /* Centered vertically */
 }
 
-@media screen and (max-width: 890px){
-    .about{
-        margin-bottom: 10%;
+.hero-content {
+    max-width: 1000px;
+}
+
+.hero-greeting {
+    color: var(--accent-primary);
+    font-family: var(--font-mono);
+    font-size: var(--fz-md);
+    margin-bottom: 20px;
+}
+
+.hero-name {
+    color: var(--text-primary);
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero-title {
+    color: var(--text-secondary);
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    color: var(--text-secondary);
+    font-size: var(--fz-lg);
+    max-width: 540px;
+    margin-bottom: 20px;
+}
+
+.hero-cta {
+    margin-top: 50px;
+}
+
+.cta-button {
+    color: var(--accent-primary);
+    background-color: transparent;
+    border: 1px solid var(--accent-primary);
+    border-radius: var(--border-radius);
+    padding: 1.25rem 1.75rem;
+    font-family: var(--font-mono);
+    font-size: var(--fz-sm);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.cta-button:hover {
+    background-color: var(--accent-tint);
+    outline: none;
+}
+
+@media (max-width: 480px) {
+    .about-section {
+        align-items: flex-start;
+        padding-top: 140px;
+        /* Ensure content clears the fixed nav */
+        padding-bottom: 40px;
     }
-    .responsive{
-        display: block;
-        margin-left: 0;
-        margin-bottom: 5%;
-        position: sticky;
-        top: 0;
-        z-index: 9999;
-        background: rgb(12, 10, 10);
-        width: 100%;
-        border-radius: 1rem;
-        padding: 10px;
-        text-align: center;
-        white-space: nowrap;
+
+    .hero-name {
+        font-size: 40px;
+        /* Ensure it fits */
+    }
+
+    .hero-title {
+        font-size: 30px;
     }
 }

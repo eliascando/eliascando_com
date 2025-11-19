@@ -1,29 +1,19 @@
 import Pill from "./Pill";
 
-function ExperienceChart(data) {
-  const { title, place, period, skills } = data;
+function ExperienceChart({ title, place, period, skills }) {
   return (
-    <section>
-      <h2>{title}</h2>
-      <p
-        style={{
-          marginTop: "0.5rem",
-          fontWeight: "bolder",
-        }}
-      >
-        <strong>{place}</strong>
-      </p>
-      <p>{period}</p>
-      <p
-        style={{
-          marginTop: "0.5rem",
-        }}
-      >
+    <div className="experience-card">
+      <div className="experience-header">
+        <h3 className="experience-title">{title}</h3>
+        <span className="experience-period">{period}</span>
+      </div>
+      <p className="experience-place">{place}</p>
+      <div className="experience-skills">
         {skills.map((skill, index) => (
           <Pill key={index} text={skill} />
         ))}
-      </p>
-    </section>
+      </div>
+    </div>
   );
 }
 

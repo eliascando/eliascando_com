@@ -6,11 +6,13 @@
   },
   "about_title": "ABOUT ME",
   "about": {
+    "greeting": "Hi, my name is",
     "title": "Full Stack Developer",
     "presentation": "Efficiency | Scalability | Real Impact",
     "intro": "I turn technical challenges into concrete solutions. I focus on optimizing processes, enhancing user experiences, and generating real business value through efficient, scalable technology.",
     "actual_job": "As a Senior Full Stack Developer at LANEC, I lead systems modernization through robust architecture, automation, and DevOps practices. I specialize in solving complex problems, anticipating needs, and guiding technical decisions that improve operations and scale results.",
-    "thinking": "I believe in constant evolution as a life philosophy. Learning, adapting, and moving forward with intention drive the way I work. I'm inspired by cinema, mental challenges, and discovering new ideas while riding my bike."
+    "thinking": "I believe in constant evolution as a life philosophy. Learning, adapting, and moving forward with intention drive the way I work. I'm inspired by cinema, mental challenges, and discovering new ideas while riding my bike.",
+    "cta": "Contact Me"
   },
   "experience_title": "EXPERIENCE",
   "experience": [
@@ -81,8 +83,13 @@
       "image_source": "botExpressHome.jpeg",
       "link_to_repo": "https://github.com/eliascando/BotExpress",
       "title": "BotExpress",
-      "description": "This is a Node project that implements the libraries of whatsapp-web.js, OpenAI, and Mongoose to automate WhatsApp responses",
-      "stack": ["Node.js", "MongoDB", "OpenAI API", "ChatBot"],
+      "description": "Intelligent virtual assistant for WhatsApp that automates customer support. Integrates OpenAI and Mongoose to handle contextual responses and store interactions, optimizing communication flow.",
+      "stack": [
+        "Node.js",
+        "MongoDB",
+        "OpenAI API",
+        "ChatBot"
+      ],
       "style": {
         "width": "40px",
         "height": "40px",
@@ -95,8 +102,13 @@
       "image_source": "blogExpressHome.jpeg",
       "link_to_repo": "https://github.com/eliascando/BlogExpress",
       "title": "BlogExpress",
-      "description": "My personal blog, where I share articles about programming and web development, developed entirely with the MERN Stack",
-      "stack": ["React", "Node.js", "MongoDB", "Express"],
+      "description": "Technical content platform built with the MERN stack. Offers a seamless reading experience and an optimized article management system for sharing web development knowledge.",
+      "stack": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
       "style": {
         "width": "40px",
         "height": "40px",
@@ -109,7 +121,7 @@
       "image_source": "chatExpressHome.jpeg",
       "link_to_repo": "https://github.com/eliascando/ChatExpress",
       "title": "ChatExpress",
-      "description": "Real-time chat web application with React and Node.js using RESTful API and Socket.io. The application is based on user interaction, allowing real-time messaging and sending requests to other people.",
+      "description": "High-availability real-time messaging system. Uses Socket.io and a RESTful architecture to ensure instant and secure communication between users, with persistence in SQL Server.",
       "stack": [
         "React",
         "Node.js",
@@ -129,13 +141,23 @@
       "image_source": "climaExpressHome.png",
       "link_to_repo": "https://github.com/eliascando/ClimaExpress",
       "title": "ClimaExpress",
-      "description": "The weather application! Weather Express is a web application built with React that consumes the WeatherApi and uses Bootstrap Icons library for the graphical part of icons.",
-      "stack": ["React", "WeatherApi", "Bootstrap Icons"],
+      "description": "Interactive weather dashboard consuming WeatherApi. Presents accurate climate data in a clean, modern interface, prioritizing user experience and load speed.",
+      "stack": [
+        "React",
+        "WeatherApi",
+        "Bootstrap Icons"
+      ],
       "style": {
         "width": "35px",
         "height": "35px",
         "marginLeft": "20px"
       }
     }
-  ]
+  ],
+  "footer": {
+    "title": "What's Next?",
+    "heading": "Get In Touch",
+    "text": "I am currently open to new projects and freelance opportunities. Whether you have an interesting idea or just want to say hi, my inbox is always open!",
+    "credit": "Designed & Built by Elías Cando"
+  }
 }

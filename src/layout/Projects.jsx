@@ -10,19 +10,20 @@ function Projects() {
 
   return (
     <div className="projects section" id="projects">
-      <h1 className="active responsive">{t("projects_title")}</h1>
+      <h1 className="active responsive fade-in-section">{t("projects_title")}</h1>
       {projectsData.map((data, index) => (
-        <ProjectsChart
-          key={index}
-          id={data.id}
-          url_project={data.link_to_project}
-          url_repo={data.link_to_repo}
-          img={imagesMap[data.image_source]}
-          title={data.title}
-          description={data.description}
-          stack={data.stack}
-          style={data.style}
-        />
+        <div key={index} className={`fade-in-section delay-${(index % 5) * 100 + 100}`}>
+          <ProjectsChart
+            id={data.id}
+            url_project={data.link_to_project}
+            url_repo={data.link_to_repo}
+            img={imagesMap[data.image_source]}
+            title={data.title}
+            description={data.description}
+            stack={data.stack}
+            style={data.style}
+          />
+        </div>
       ))}
     </div>
   );

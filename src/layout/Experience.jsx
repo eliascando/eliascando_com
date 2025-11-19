@@ -9,15 +9,16 @@ function Experience() {
 
   return (
     <div className="experience section" id="experience">
-      <h1 className="active responsive">{t("experience_title")}</h1>
+      <h1 className="active responsive fade-in-section">{t("experience_title")}</h1>
       {experienceData.map((data, index) => (
-        <ExperienceChart
-          key={index}
-          title={data.title}
-          place={data.place}
-          period={data.period}
-          skills={data.skills}
-        />
+        <div key={index} className={`fade-in-section delay-${(index % 5) * 100 + 100}`}>
+          <ExperienceChart
+            title={data.title}
+            place={data.place}
+            period={data.period}
+            skills={data.skills}
+          />
+        </div>
       ))}
     </div>
   );

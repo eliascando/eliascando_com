@@ -79,6 +79,25 @@
   "projects": [
     {
       "id": 1,
+      "link_to_project": "https://liyanest.com",
+      "image_source": "liyanestHome.jpeg",
+      "link_to_repo": "#",
+      "title": "Liyanest",
+      "description": "On-demand technical services platform with real-time geolocation. Connects clients with verified technicians securely, optimizing times via GPS tracking and using Open Source technologies.",
+      "stack": [
+        "NestJS",
+        "Flutter",
+        "Angular",
+        "OpenFreeMaps"
+      ],
+      "style": {
+        "width": "40px",
+        "height": "40px",
+        "marginLeft": "20px"
+      }
+    },
+    {
+      "id": 2,
       "link_to_project": "https://wa.me/593988661001",
       "image_source": "botExpressHome.jpeg",
       "link_to_repo": "https://github.com/eliascando/BotExpress",
@@ -97,7 +116,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "link_to_project": "https://blog-express-sigma.vercel.app",
       "image_source": "blogExpressHome.jpeg",
       "link_to_repo": "https://github.com/eliascando/BlogExpress",
@@ -116,7 +135,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "link_to_project": "https://chat-express-iota.vercel.app",
       "image_source": "chatExpressHome.jpeg",
       "link_to_repo": "https://github.com/eliascando/ChatExpress",
@@ -136,7 +155,7 @@
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "link_to_project": "https://clima-express.vercel.app/",
       "image_source": "climaExpressHome.png",
       "link_to_repo": "https://github.com/eliascando/ClimaExpress",

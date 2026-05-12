@@ -1,7 +1,4 @@
 import { useState } from "react";
-import github from "../assets/github.svg";
-import linkedin from "../assets/linkedin.svg";
-import mail from "../assets/mail.svg";
 import "../css/Nav.css";
 import { useTranslation } from "react-i18next";
 
@@ -20,15 +17,22 @@ function Nav({ location, setLocation, language, setLanguage }) {
         <a href="#" onClick={() => window.scrollTo(0, 0)}>EC</a>
       </div>
 
-      <div className="mobile-menu-toggle" onClick={toggleMenu}>
-        <div className={`hamburger ${isMenuOpen ? 'open' : ''}`}>
+      <button
+        className="mobile-menu-toggle"
+        type="button"
+        aria-label={isMenuOpen ? t("nav.close_menu") : t("nav.open_menu")}
+        aria-expanded={isMenuOpen}
+        aria-controls="primary-navigation"
+        onClick={toggleMenu}
+      >
+        <div className={`hamburger ${isMenuOpen ? "open" : ""}`} aria-hidden="true">
           <span></span>
           <span></span>
           <span></span>
         </div>
-      </div>
+      </button>
 
-      <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+      <div id="primary-navigation" className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <ul>
           <li>
             <button

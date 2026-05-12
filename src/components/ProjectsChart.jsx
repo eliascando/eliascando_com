@@ -1,7 +1,7 @@
 import github from '../assets/github.svg';
 import Pill from './Pill';
 
-function ProjectsChart({ id, url_project, url_repo, img, title, description, stack, style }) {
+function ProjectsChart({ url_project, url_repo, img, title, description, stack }) {
     return (
         <article className="project-card">
             <div className="project-image">

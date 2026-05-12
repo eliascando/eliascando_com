@@ -71,6 +71,8 @@
     display: none;
     cursor: pointer;
     z-index: 12;
+    background: transparent;
+    padding: 0;
 }
 
 .hamburger {

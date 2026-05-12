@@ -2,7 +2,9 @@
   "nav": {
     "about": "ACERCA DE MI",
     "experience": "EXPERIENCIA",
-    "projects": "PROYECTOS"
+    "projects": "PROYECTOS",
+    "open_menu": "Abrir menú",
+    "close_menu": "Cerrar menú"
   },
   "about_title": "ACERCA DE MI",
   "about": {
@@ -15,164 +17,7 @@
     "cta": "Contáctame"
   },
   "experience_title": "EXPERIENCIA",
-  "experience": [
-    {
-      "title": "Full Stack Developer Senior",
-      "place": "Corporación LANEC",
-      "period": "ene. 2025 - actualidad",
-      "skills": [
-        "SQL Server",
-        ".NET",
-        "React",
-        "Flutter",
-        "Java Server Faces",
-        "Node",
-        "Azure DevOps",
-        "Arquitectura de Software",
-        "Automatización con DevOps",
-        "Ingeniería de Datos"
-      ]
-    },
-    {
-      "title": "Desarrollador Semi Senior",
-      "place": "Viamatica (Outsourcing Banco Guayaquil)",
-      "period": "ago. 2024 - ene. 2025",
-      "skills": [
-        "Angular",
-        ".NET Framework",
-        "SQL Server",
-        "Azure DevOps",
-        "Arquitectura de Software",
-        "Microservicios",
-        "Microfrontends"
-      ]
-    },
-    {
-      "title": "Consultor de Software",
-      "place": "Royaltic Group",
-      "period": "mar. 2024 - ago. 2024",
-      "skills": [
-        "Angular",
-        ".NET Framework",
-        "Laravel",
-        "SQL Server",
-        "Business Intelligence",
-        "ETL",
-        "Power BI"
-      ]
-    },
-    {
-      "title": "Full Stack Developer Junior",
-      "place": "Corporación LANEC",
-      "period": "jul. 2023 - feb. 2024",
-      "skills": [
-        "React",
-        ".NET Framework",
-        "SQL Server",
-        "Node",
-        "Azure DevOps",
-        "Automatización de Procesos"
-      ]
-    }
-  ],
   "projects_title": "PROYECTOS",
-  "projects": [
-    {
-      "id": 1,
-      "link_to_project": "https://liyanest.com",
-      "image_source": "liyanestHome.jpeg",
-      "link_to_repo": "#",
-      "title": "Liyanest",
-      "description": "Plataforma de servicios técnicos a domicilio con geolocalización en tiempo real. Conecta clientes con técnicos verificados de forma segura, optimizando tiempos mediante rastreo GPS y utilizando tecnologías Open Source.",
-      "stack": [
-        "NestJS",
-        "Flutter",
-        "Angular",
-        "OpenFreeMaps"
-      ],
-      "style": {
-        "width": "40px",
-        "height": "40px",
-        "marginLeft": "20px"
-      }
-    },
-    {
-      "id": 2,
-      "link_to_project": "https://wa.me/593988661001",
-      "image_source": "botExpressHome.jpeg",
-      "link_to_repo": "https://github.com/eliascando/BotExpress",
-      "title": "Bot Express",
-      "description": "Asistente virtual inteligente para WhatsApp que automatiza la atención al cliente. Integra OpenAI y Mongoose para gestionar respuestas contextuales y almacenar interacciones, optimizando el flujo de comunicación.",
-      "stack": [
-        "Node.js",
-        "MongoDB",
-        "OpenAI API",
-        "ChatBot"
-      ],
-      "style": {
-        "width": "40px",
-        "height": "40px",
-        "marginLeft": "20px"
-      }
-    },
-    {
-      "id": 3,
-      "link_to_project": "https://blog-express-sigma.vercel.app",
-      "image_source": "blogExpressHome.jpeg",
-      "link_to_repo": "https://github.com/eliascando/BlogExpress",
-      "title": "Blog Express",
-      "description": "Plataforma de contenido técnico desarrollada con el stack MERN. Ofrece una experiencia de lectura fluida y un sistema de gestión de artículos optimizado para compartir conocimiento sobre desarrollo web.",
-      "stack": [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Express"
-      ],
-      "style": {
-        "width": "40px",
-        "height": "40px",
-        "marginLeft": "20px"
-      }
-    },
-    {
-      "id": 4,
-      "link_to_project": "https://chat-express-iota.vercel.app",
-      "image_source": "chatExpressHome.jpeg",
-      "link_to_repo": "https://github.com/eliascando/ChatExpress",
-      "title": "Chat Express",
-      "description": "Sistema de mensajería en tiempo real de alta disponibilidad. Utiliza Socket.io y una arquitectura RESTful para garantizar comunicación instantánea y segura entre usuarios, con persistencia en SQL Server.",
-      "stack": [
-        "React",
-        "Node.js",
-        ".NET Web API",
-        "Microsoft SQL Server",
-        "Socket.io"
-      ],
-      "style": {
-        "width": "40px",
-        "height": "40px",
-        "marginLeft": "20px"
-      }
-    },
-    {
-      "id": 5,
-      "link_to_project": "https://clima-express.vercel.app/",
-      "image_source": "climaExpressHome.png",
-      "link_to_repo": "https://github.com/eliascando/ClimaExpress",
-      "title": "Clima Express",
-      "description": "Dashboard meteorológico interactivo que consume WeatherApi. Presenta datos climáticos precisos en una interfaz limpia y moderna, priorizando la experiencia de usuario y la velocidad de carga.",
-      "stack": [
-        "React",
-        "WeatherApi",
-        "Bootstrap Icons"
-      ],
-      "style": {
-        "width": "35px",
-        "height": "35px",
-        "marginLeft": "20px"
-      }
-    }
-  ],
   "footer": {
     "title": "¿Qué sigue?",
     "heading": "Contáctame",

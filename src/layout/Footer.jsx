@@ -3,12 +3,13 @@ import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import mail from "../assets/mail.svg";
 import { useTranslation } from "react-i18next";
+import FadeIn from "../components/FadeIn";
 
 function Footer() {
     const { t } = useTranslation();
 
     return (
-        <footer className="footer fade-in-section" id="contact">
+        <FadeIn as="footer" className="footer" id="contact">
             <h2 className="footer-title">{t("footer.title")}</h2>
             <h1 className="footer-heading">{t("footer.heading")}</h1>
             <p className="footer-text">{t("footer.text")}</p>
@@ -40,7 +41,7 @@ function Footer() {
             <div className="footer-credit">
                 <p>{t("footer.credit")}</p>
             </div>
-        </footer>
+        </FadeIn>
     );
 }
 

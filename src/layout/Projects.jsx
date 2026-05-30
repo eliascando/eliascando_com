@@ -3,18 +3,19 @@ import ProjectsChart from "../components/ProjectsChart.jsx";
 import imagesMap from "../data/imagesProjects.js";
 import { useTranslation } from "react-i18next";
 import portfolioContent from "../data/portfolioContent";
+import FadeIn from "../components/FadeIn";
 
 function Projects() {
   const { t, i18n } = useTranslation();
 
-  const language = i18n.resolvedLanguage || i18n.language;
+  const language = (i18n.resolvedLanguage || i18n.language || "en").split("-")[0];
   const projectsData = portfolioContent[language]?.projects ?? portfolioContent.en.projects;
 
   return (
     <div className="projects section" id="projects">
-      <h1 className="active responsive fade-in-section">{t("projects_title")}</h1>
+      <FadeIn as="h1" className="active responsive">{t("projects_title")}</FadeIn>
       {projectsData.map((data, index) => (
-        <div key={data.id} className={`fade-in-section delay-${(index % 5) * 100 + 100}`}>
+        <FadeIn key={data.id} className={`delay-${(index % 5) * 100 + 100}`}>
           <ProjectsChart
             url_project={data.link_to_project}
             url_repo={data.link_to_repo}
@@ -23,7 +24,7 @@ function Projects() {
             description={data.description}
             stack={data.stack}
           />
-        </div>
+        </FadeIn>
       ))}
     </div>
   );

@@ -4,7 +4,6 @@ import Content from "./layout/Content";
 import "./App.css";
 import { Analytics } from "@vercel/analytics/react";
 import useSectionObserver from "./hooks/useSectionObserver";
-import useScrollAnimation from "./hooks/useScrollAnimation";
 import i18n from "./utils/i18n";
 import CursorSpotlight from "./components/CursorSpotlight";
 
@@ -27,7 +26,6 @@ function App() {
   }, [language]);
 
   useSectionObserver(setLocation);
-  useScrollAnimation();
 
   return (
     <div className="App">

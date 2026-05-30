@@ -1,12 +1,13 @@
 import "../css/About.css";
 import { useTranslation } from "react-i18next";
+import FadeIn from "../components/FadeIn";
 
 function About() {
   const { t } = useTranslation();
 
   return (
     <section className="about-section section" id="about">
-      <div className="hero-content fade-in-section">
+      <FadeIn className="hero-content">
         <p className="hero-greeting">{t("about.greeting") || "Hola, mi nombre es"}</p>
         <h1 className="hero-name">Elías Cando.</h1>
         <h2 className="hero-title">{t("about.title")}</h2>
@@ -22,7 +23,7 @@ function About() {
             {t("about.cta")}
           </button>
         </div>
-      </div>
+      </FadeIn>
     </section>
   );
 }

@@ -5,7 +5,7 @@ function ProjectsChart({ url_project, url_repo, img, title, description, stack }
     return (
         <article className="project-card">
             <div className="project-image">
-                <img src={img} alt={title} />
+                <img src={img} alt={title} loading="lazy" decoding="async" />
             </div>
             <div className="project-content">
                 <header>
